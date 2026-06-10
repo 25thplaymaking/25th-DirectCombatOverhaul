@@ -1,0 +1,44 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ ID "50B2B8F35661FB44"
+ components {
+  SCR_AISettingsComponent "{512CCCD0856CB4B9}" {
+   m_EnableLeaderStop 1
+   m_bUseConfigFiles 0
+   m_eFormation FIRETEAM
+   m_fFormationScale 1.8
+   m_fSuppressedWeaponFiredAudibleDistance 250
+   m_eCombatMode RED
+   m_eCombatBehaviorType OFFENSIVE
+   m_eCombatMovementType FIRETEAM
+   m_iCombatStayInCoverDurationModifier 6
+   m_iCombatMoveToNextPositionDelayModifier 0
+   m_iCombatInCoverDynamicCoverSearchChance 45
+   m_fSuppressDuration 100
+   m_iSuppressMagazineConsumptionChance 0
+   m_iSuppressRocketLauncherTimeoutDuration 15
+   m_fPerceptionSafe 1.5
+   m_fPerceptionVigilant 2.2
+   m_fPerceptionThreatened 2
+   m_fAimAccuracyErrorModifier -0.47
+   m_iHoldPositionRadius 55
+   m_iFleeChance 20
+   m_eWeaponFireMode BURST
+   m_eFlashlightState OFF
+   m_iDangerReactionChance 88
+   m_iMagazineConsumptionChance 0
+   m_fAttackReactionDelayModifier -0.5
+   m_iForceMoveAttackChance 32
+   m_fCommsHandlerTimeout 4
+   m_bWeatherConditionsAffectsAI 1
+   m_bMovementAffectsAIAimAccuracy 1
+   m_bLowLightEnvironmentAffectsAI 1
+   m_fGlobalSuppressedWeaponFiredAudibleDistance 250
+   m_eGlobalCombatMode RED
+   m_iGlobalCombatInCoverDynamicCoverSearchChance 45
+   m_fGlobalPerceptionSafe 1.5
+   m_fGlobalPerceptionVigilant 2.2
+   m_fGlobalAimAccuracyErrorModifier -0.47
+   m_iGlobalMagazineConsumptionChance 0
+  }
+ }
+}

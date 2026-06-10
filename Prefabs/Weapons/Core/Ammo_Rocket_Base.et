@@ -1,0 +1,8 @@
+Projectile {
+ ID "DA5C6308000CDEF2"
+ components {
+  AICombatPropertiesComponent "{59C92CB0FD688D78}" {
+   UsedAgainst 0x1f 0
+  }
+ }
+}

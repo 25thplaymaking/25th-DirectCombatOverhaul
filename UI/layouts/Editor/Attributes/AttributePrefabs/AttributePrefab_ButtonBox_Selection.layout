@@ -1,0 +1,60 @@
+FrameWidgetClass "{699222D4FC7AAD79}" : "{BC83FFDB7BC37F26}UI/layouts/Editor/Attributes/Base/AttributePrefab_ButtonBox.layout" {
+ Name "AttributePrefab_ButtonBox"
+ components {
+  SCR_ButtonBoxAttributeUIComponent "{54A4BB53CCEF2FD5}" {
+   Enabled 0
+  }
+  SCR_ButtonBoxAttributeUIComponent "{54A4BB53CCEF2FD5}" {
+   m_sUiComponentName "ToolBoxMultiline0"
+   m_ToolboxType SELECTABLE_BUTTON
+   m_sButtonWithIcon "{0C6A9655C33FB75D}UI/layouts/Editor/Attributes/Base/ButtonImageUnderlined.layout"
+   m_sEmptyButton "{B98EA1D6487A6F45}UI/layouts/Editor/Attributes/Base/AttributeEmptyButton.layout"
+  }
+ }
+ {
+  FrameWidgetClass "{54A4BB5120C83E4E}" {
+   Prefab "{54A4BB5120C83E4E}"
+   {
+    SizeLayoutWidgetClass "{55A2D6D3563F2862}" {
+     Prefab "{55A2D6D3563F2862}"
+     {
+      HorizontalLayoutWidgetClass "{55A272E10C6C6415}" {
+       Prefab "{55A272E10C6C6415}"
+       {
+        FrameWidgetClass "{55ACAB41AC4B7EFA}" {
+         Prefab "{55ACAB41AC4B7EFA}"
+         {
+          SizeLayoutWidgetClass "{55A272E1277CE21D}" {
+           Prefab "{55A272E1277CE21D}"
+           {
+            ButtonWidgetClass "{55ACADB1661AF6FA}" {
+             Prefab "{55ACADB1661AF6FA}"
+             {
+              SizeLayoutWidgetClass "{5536C9344BC92E4C}" {
+               Prefab "{5536C9344BC92E4C}"
+               {
+                OverlayWidgetClass "{55367D8E531FD623}" {
+                 Prefab "{55367D8E531FD623}"
+                 {
+                  PanelWidgetClass "{55367D8E4A135500}" {
+                   Prefab "{55367D8E4A135500}"
+                   "Is Visible" 0
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

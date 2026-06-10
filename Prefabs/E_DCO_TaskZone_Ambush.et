@@ -1,0 +1,37 @@
+GenericEntity {
+ ID "688228AF94628548"
+ components {
+  DCO_TaskZoneComponent "{605FD09E6940B458}" {
+   m_eRole AMBUSH
+   m_fRadius 30
+  }
+  SCR_EditableEntityVisibilityChildComponent "{688228AF94620A03}" {
+   m_State 96
+  }
+  SCR_EditableSystemComponent "{0825654674C738C6}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableEntityUIInfo "{688228AF94620A01}" {
+    Name "DCO Ambush Position"
+    Description "Ambush position. Place this circle over the group(s) that will lie in wait. Groups whose leader is inside HOLD FIRE until the ambush is sprung - either by an enemy coming within their own range, or (better) by a paired 'DCO Ambush Kill-Zone' placed where the enemy will pass. Give this circle and the kill-zone the same Pair Tag to link them."
+    Icon "{DD5F23CBB1731598}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Base.edds"
+    m_Image "{42484F03A5B5B395}UI/Textures/Editor/Toolbar/ToolbarFilter_Systems.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_SYSTEM DCO_TASKZONE_AMBUSH
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{688228AF94620A02}" {
+      m_BudgetType SYSTEMS
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_bStatic 1
+   m_Flags 67
+  }
+  RplComponent "{57BBF0999597011F}" {
+   Streamable Disabled
+  }
+  Hierarchy "{688228AF94620A04}" {
+  }
+ }
+}

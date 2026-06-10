@@ -1,0 +1,33 @@
+# ──────────────────────────────────────────────────────────────────────────
+# 25thCRX / DCO — .gitignore
+#
+# Goal: keep the human-authored source (scripts, .et/.conf/.layout, docs, the
+# .png/.json source assets and the .gproj) in version control, and leave out
+# everything the Enfusion Workbench regenerates locally on import/build.
+#
+# NOTE: .meta files are deliberately excluded. They are per-machine resource
+# bookkeeping that the Workbench rebuilds; the GUIDs that actually matter live
+# inside the .conf/.et source and are committed. Re-import the addon in the
+# Workbench after cloning to regenerate the .meta sidecars and the resource DB.
+# ──────────────────────────────────────────────────────────────────────────
+
+# Workbench resource bookkeeping (regenerated on import)
+*.meta
+
+# Local resource database / caches (engine-deployed, never source)
+*.rdb
+resourceDatabase.rdb
+
+# Engine-converted textures (built from the committed .png sources)
+*.edds
+
+# Workbench build / temp output
+/build/
+*.tmp
+*.bak
+*.backup
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store

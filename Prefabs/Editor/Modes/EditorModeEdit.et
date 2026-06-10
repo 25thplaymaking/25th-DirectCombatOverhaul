@@ -1,0 +1,17 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_AttributesManagerEditorComponent "{54C8DACDCD4AE14E}" {
+   m_AttributeLists {
+    SCR_EditorAttributeList "{5DC0DC0D0F1A0001}" : "{5DC0DC0A77E1B5E0}Configs/Editor/AttributeLists/DCO_Attributes.conf" {
+    }
+   }
+  }
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{5DC0DC0D0F1A0002}" : "{D1D2A9608093EF12}Configs/Editor/PlaceableEntities/DCO_PlaceableEntities.conf" {
+    }
+   }
+  }
+ }
+}

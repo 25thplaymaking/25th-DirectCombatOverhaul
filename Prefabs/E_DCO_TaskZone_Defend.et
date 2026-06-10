@@ -1,0 +1,37 @@
+GenericEntity {
+ ID "139812DCE537C5DD"
+ components {
+  DCO_TaskZoneComponent "{13C22CC2C47AF974}" {
+   m_eRole DEFEND
+   m_fRadius 50
+  }
+  SCR_EditableEntityVisibilityChildComponent "{139812DCE5370A03}" {
+   m_State 96
+  }
+  SCR_EditableSystemComponent "{4DBF16388F8FBB55}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableEntityUIInfo "{139812DCE5370A01}" {
+    Name "DCO Defend Zone"
+    Description "Garrison/hold point. Place this circle over the group(s) you want to defend an area. Groups whose leader is inside hold their position and orient their defence toward the nearest threat instead of advancing. Persistent - they keep holding until you delete the circle."
+    Icon "{DD5F23CBB1731598}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Base.edds"
+    m_Image "{42484F03A5B5B395}UI/Textures/Editor/Toolbar/ToolbarFilter_Systems.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_SYSTEM DCO_TASKZONE_DEFEND
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{139812DCE5370A02}" {
+      m_BudgetType SYSTEMS
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_bStatic 1
+   m_Flags 67
+  }
+  RplComponent "{6F0D511AD7F528FC}" {
+   Streamable Disabled
+  }
+  Hierarchy "{139812DCE5370A04}" {
+  }
+ }
+}

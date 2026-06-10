@@ -1,0 +1,37 @@
+GenericEntity {
+ ID "30D639399A7E2C6F"
+ components {
+  DCO_TaskZoneComponent "{409E265CBC55204F}" {
+   m_eRole REINFORCE
+   m_fRadius 50
+  }
+  SCR_EditableEntityVisibilityChildComponent "{30D639399A7E0A03}" {
+   m_State 96
+  }
+  SCR_EditableSystemComponent "{1AB28F1EA5503EF0}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableEntityUIInfo "{30D639399A7E0A01}" {
+    Name "DCO Reinforce Pool"
+    Description "Reinforcement pool. Place this circle over groups you want available as reinforcements. Groups whose leader is inside are flagged reinforcement-eligible: DCO may pull them off their own waypoint to converge on a nearby contact. Persistent - eligibility lasts while they are inside the circle."
+    Icon "{DD5F23CBB1731598}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Base.edds"
+    m_Image "{42484F03A5B5B395}UI/Textures/Editor/Toolbar/ToolbarFilter_Systems.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_SYSTEM DCO_TASKZONE_REINFORCE
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{30D639399A7E0A02}" {
+      m_BudgetType SYSTEMS
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_bStatic 1
+   m_Flags 67
+  }
+  RplComponent "{826B0A35EAF968D9}" {
+   Streamable Disabled
+  }
+  Hierarchy "{30D639399A7E0A04}" {
+  }
+ }
+}

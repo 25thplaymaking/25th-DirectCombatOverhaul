@@ -1,0 +1,9 @@
+{
+	"_comment": "DCO Map Intelligence - baked area file (external tier). Copy to $profile:DCO_MapIntel.json on your server to feed the AI commander pre-computed key locations (villages, military sites, forests). Parallel arrays: index i across types/xs/zs/radii/weights describes one area. Produced offline (see docs/RECOM_DCO_MERGE_2026-06-09.md) or hand-authored. The native tier needs none of this; this file only adds offline-baked fidelity such as forests.",
+	"mapName": "Everon",
+	"types":   ["MILITARY", "VILLAGE", "VILLAGE", "FOREST"],
+	"xs":      [3520.0,     5840.0,    7310.5,    4600.0],
+	"zs":      [9120.0,     6275.0,    4980.0,    8100.0],
+	"radii":   [220.0,      180.0,     150.0,     300.0],
+	"weights": [40,         55,        28,        12]
+}
