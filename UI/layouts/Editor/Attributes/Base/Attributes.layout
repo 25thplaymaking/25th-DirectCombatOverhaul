@@ -1,0 +1,213 @@
+FrameWidgetClass "{699222D4AD4DA4C4}" {
+ Name "AttributeBaseWidget"
+ {
+  SizeLayoutWidgetClass "{699222D4AD4DA4C2}" {
+   Name "SizeLayout0"
+   Slot FrameWidgetSlot "{55A2D6D3563F2851}" {
+    SizeToContent 1
+   }
+   AllowWidthOverride 1
+   WidthOverride 890
+   AllowMinDesiredHeight 1
+   MinDesiredHeight 55
+   {
+    HorizontalLayoutWidgetClass "{699222D4AD4DA4C1}" {
+     Name "HorizontalLayout"
+     Slot AlignableSlot "{55A2D6D36706AD32}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     {
+      OverlayWidgetClass "{699222D4AD4DA4C0}" {
+       Name "SubAttributeIndicator"
+       Slot LayoutSlot "{5ACE8274AA51C95C}" {
+        HorizontalAlign 0
+        Padding 8 0 0 0
+       }
+       "Is Visible" 0
+       Color 0.687 0.687 0.687 1
+       {
+        VerticalLayoutWidgetClass "{699222D4AD4D8B0A}" {
+         Name "VerticalLayout0"
+         Slot OverlayWidgetSlot "{5ACE84377A8D155C}" {
+         }
+         "Inherit Color" 1
+         {
+          SizeLayoutWidgetClass "{699222D4AD4D8B14}" {
+           Name "SizeLayout0"
+           Slot LayoutSlot "{5E6488ABFAC9296B}" {
+           }
+           AllowMinDesiredWidth 1
+           MinDesiredWidth 32
+           AllowMinDesiredHeight 1
+           MinDesiredHeight 32
+           {
+            ImageWidgetClass "{699222D4AD4D5A2D}" {
+             Name "SubAttributeImage0"
+             Slot AlignableSlot "{5E6488ABFAE02666}" {
+             }
+             Color 0.074 0.074 0.074 1
+             "Inherit Color" 1
+             Texture "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+             Image "sortArrowRight"
+             Size 32 32
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      FrameWidgetClass "{699222D4AD4D5A2E}" {
+       Name "Frame0"
+       Slot LayoutSlot "{55ACAB41AC4B7E3B}" {
+        SizeMode Fill
+       }
+       {
+        ButtonWidgetClass "{699222D4AD4D5A2F}" {
+         Name "GamePadLockedSelector"
+         Slot FrameWidgetSlot "{55ACB2F5A12B95BA}" {
+          Anchor 0 0 1 1
+          PositionX 0
+          OffsetLeft 0
+          PositionY 0
+          OffsetTop 0
+          SizeX -796
+          OffsetRight 0
+          SizeY -25
+          OffsetBottom 0
+         }
+         "Is Visible" 0
+         components {
+          ButtonComponent "{55ACB3F2F9D874E6}" {
+           m_ColorButtonDefault 0 0 0 0
+           m_ColorButtonFocused 1 1 1 0
+           m_ColorButtonPressed 1 1 1 0
+           m_ColorButtonDisabled 0.8 0.8 0.8 0
+           m_bColorizeChildren 1
+           m_ColorChildDefault 0.761 0.386 0.08 0
+           m_ColorChildFocused 0.761 0.386 0.08 0.392
+           m_ColorChildPressed 1 1 1 0
+           m_ColorChildDisabled 1 1 1 0
+           m_sSoundClicked ""
+           m_ColorButtonHovered 1 1 1 0
+           m_ColorButtonHoveredFocused 1 1 1 0
+           m_ColorChildHovered 1 1 1 0
+           m_ColorChildHoveredFocused 0 0 0 0
+          }
+          SCR_OnFocusUIComponent "{55ACC92F4F4CF60B}" {
+          }
+         }
+         {
+          PanelWidgetClass "{699222D4AD4D2083}" {
+           Name "Panel0"
+           Slot ButtonWidgetSlot "{55ACB3F2E474197B}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           style outline_2px
+          }
+         }
+        }
+        SizeLayoutWidgetClass "{699222D4AD4D2084}" {
+         Name "AttributeHolder"
+         Slot FrameWidgetSlot "{55ACAB41AC7DA108}" {
+          Anchor 0 0 1 1
+          PositionX 0
+          OffsetLeft 0
+          PositionY 0
+          OffsetTop 0
+          SizeX -761.539
+          OffsetRight 0
+          SizeY -2.3
+          OffsetBottom 0
+          SizeToContent 1
+         }
+         "Ignore Cursor" 0
+         WidthOverride 896
+         HeightOverride 36
+        }
+       }
+      }
+      FrameWidgetClass "{699222D4AD4D2085}" {
+       Name "TickboxHolder"
+       Slot LayoutSlot "{55A272E16CA80491}" {
+        HorizontalAlign 2
+        VerticalAlign 1
+        Padding 0 0 0 0
+        SizeMode Fill
+        FillWeight 0.04
+       }
+       "Is Visible" 0
+       components {
+        SCR_AttributeTickboxUIComponent "{55A297A788E3F6AA}" {
+         m_sTickBoxImageName "Image0"
+         m_sTickBoxButtonName "Button0"
+         m_sTickBoxImageToggled "{6BBC30A02FBC9A29}UI/Textures/Editor/Attributes/Attribute_Unlocked.edds"
+         m_sTickBoxImageUntoggled "{564794579B2DB679}UI/Textures/Editor/Attributes/Attribute_Locked.edds"
+        }
+       }
+       {
+        SizeLayoutWidgetClass "{699222D4AD4EEFCA}" {
+         Name "SizeLayout0"
+         Slot FrameWidgetSlot "{55ACA83A2D3A209A}" {
+          Anchor 0 0 0 0
+          PositionX 0
+          OffsetLeft 0
+          PositionY 0
+          OffsetTop 0
+          SizeX 50
+          OffsetRight -50
+          SizeY 30
+          OffsetBottom -30
+          SizeToContent 1
+         }
+         {
+          ButtonWidgetClass "{699222D4AD4EEFC9}" {
+           Name "Button0"
+           Slot AlignableSlot "{55A2D6D2920FC8DF}" {
+           }
+           Color 1 1 1 0
+           components {
+            ButtonActionComponent "{55A2D6D2ACA93565}" {
+            }
+            ButtonComponent "{55A2D6D2BD360BF6}" {
+             m_ColorButtonDefault 0 0 0 0
+             m_ColorButtonFocused 1 1 1 0
+             m_ColorButtonPressed 1 1 1 0
+             m_ColorButtonDisabled 0.8 0.8 0.8 0
+             m_bColorizeChildren 1
+             m_ColorChildDefault 1 1 1 1
+             m_ColorChildFocused 1 1 1 1
+             m_ColorChildPressed 1 1 1 0.196
+             m_ColorChildDisabled 1 1 1 0.059
+             m_ColorButtonHovered 1 1 1 0
+             m_ColorButtonHoveredFocused 1 1 1 0
+             m_ColorChildHovered 1 1 1 0.588
+             m_ColorChildHoveredFocused 1 1 1 0.588
+            }
+           }
+           "no focus" 1
+           {
+            ImageWidgetClass "{699222D4AD4E86EE}" {
+             Name "Image0"
+             Slot ButtonWidgetSlot "{55A2D6D244FC3342}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Texture "{564794579B2DB679}UI/Textures/Editor/Attributes/Attribute_Locked.edds"
+             Image ""
+             Size 32.3 32.3
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -14,6 +14,13 @@
 # Workbench resource bookkeeping (regenerated on import)
 *.meta
 
+# EXCEPTION (load-bearing): the editor-attribute LAYOUT .meta carry the addon-local GUIDs
+# that Configs/Editor/AttributeLists/DCO_Attributes.conf references directly. If these are
+# not tracked, a fresh clone + Workbench re-import mints NEW random GUIDs and breaks every
+# GM-tab slider (placeholder "Slider" text + a 0-50% value instead of metres/degrees).
+# Keep them in version control so the GM tab survives a re-clone.
+!UI/layouts/Editor/Attributes/**/*.meta
+
 # Local resource database / caches (engine-deployed, never source)
 *.rdb
 resourceDatabase.rdb
