@@ -1,5 +1,7 @@
 # 25th Direct Combat Overhaul (DCO)
 
+This project has been sunset - no further updates will be received; however you can keep an eye out for Bifrost updates on the Workshop!
+
 **A server-side AI behaviour overhaul for Arma Reforger, built for Game Master and PVE.**
 
 DCO makes AI fight like people instead of bullet sponges: they break, surrender, suppress,
